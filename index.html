@@ -24,39 +24,112 @@
   <body>
     <div id="container"> 
       <div class="container_Size" id="color1">
-        <div class="" id="imgGallery"><p>Happy RangPanchmi</p></div>
+        <div class="" id="imgGallery"><p>Happy GudiPadwa</p></div>
       </div>
-
-      <div class="lights"></div>
-      <div class="lights secondLight"></div>
-
-      <div class="heroImg" id="heroImg"></div>
-
-      <div class="sounds sound1"></div>
-      <div class="sounds sound2 secondSound"></div>
-
-      <div class="clear"></div>
-
-      <div class="spotlightContainer" id="spotlightContainer">
-        <div class="spotlight spot1"></div>
-        <div class="spotlight spot2"></div>
+	
+    <div class="spotlightContainer" id="spotlightContainer">
+        <div class="spotlight spot1" id="spotlight1"></div>
+        <div class="spotlight spot2" id="spotlight2"></div>
       </div>
+	
+    <div class="container-fluid">
+		<div class="col-sm-4 col-sm-offset-1 col-xs-offset-3 lights"></div>
+	    <div class="col-sm-4 col-sm-offset-2 hidden-xs lights secondLight"></div>
+    </div>	
+        <div class="container-fluid">
+        <div class="col-sm-12 heroImg" id="heroImg"></div>
+        </div>
+        
+        <div class="container-fluid">
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+      	<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logoFont navbar-brand" href="#">Jay Sounds & Lights</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
 
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RENTAL <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sounds</a></li>
+                <li><a href="#">Lights</a></li>
+                <li><a href="#">LED Wall</a></li>
+                <li><a href="#">Other Rentals Equipments</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MANUFACTURING <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sounds</a></li>
+                <li><a href="#">LF7</a></li>
+                <li><a href="#">LF8</a></li>
+                <li><a href="#">LF9</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Flying</li>
+                <li><a href="#">dual front loaded</a></li>
+                <li><a href="#">dual horn loaded</a></li>
+                <li><a href="#">fiber horn loaded</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Cases</li>
+                <li><a href="#">Sound Cases</a></li>
+                <li><a href="#">Lights cases</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INSTALLATIONS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">MIT Collage</a></li>
+                <li><a href="#">Gold Gym</a></li>
+                <li><a href="#">24 cafe pub</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    	</nav>
+        </div>
+        
+        <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-2 col-sm-offset-1 col-xs-offset-4 sounds sound1"></div>
+        <div class="col-sm-2 col-sm-offset-7 col-xs-offset-4 sounds sound2 secondSound"></div>
+        </div>
+        </div>
+      
+        <div class="container-fluid">
         <div class="details">
-
-          <div class="adress">Raj Heights, Rambaug Colony, Paud Road, Kothrud. Pune 411038</div>
-
+          <div class="address">Raj Heights, Rambaug Colony, Paud Road, Kothrud. Pune 411038</div>
           <div class="email">For any further detils please write to us at jaysounds_pune@yahoo.com</div>
-
-          <div class="phoneNo">Contact us +919881907980 / +919226448081</div>
-
+          <div class="phoneNo">Contact us <a href="tel://+919881907980">+919881907980</a> / <a href="tel://+919226448081">+919226448081</a></div>
+	</div>
       </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">webatithi.com</p>
+        </div>
+      </footer>
 
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+    
     <script type="text/javascript" src="js/script.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>

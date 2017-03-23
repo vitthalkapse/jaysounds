@@ -5,13 +5,21 @@ $(document).ready(function(){
     var heroImg = document.getElementById('heroImg');
         heroImg.style.width = screenWidth;
 
-
     $("div").click(function(){
         var colorRandom = Math.floor(Math.random()*900000) + 100000;
         var addColor = "#"+colorRandom; 
         var colorDiv = document.getElementById('color1');
             colorDiv.style.backgroundColor = addColor;
-           // console.log(addColor);
+
+        // var spotlightColor1 = document.getElementById('spotlight1');
+        // var spotlightColor2 = document.getElementById('spotlight2');
+        //     spotlightColor1.style.borderTopColor = "rgba(155, 102, 102, 0.5)";
+        //     spotlightColor2.style.borderTopColor = "rgba(155, 102, 102, 0.5)";
+            //console.log(spotlightColor.style.borderTopColor);
+
+        $("#spotlight1").animate({
+            borderTopColor: "rgba(155, 102, 102, 0.5)" 
+        }, 1500 );
     });
 
     $( "div" ).mousemove(function( event ) {
@@ -22,9 +30,5 @@ $(document).ready(function(){
             //console.log(addColor);
     });
 
+
 });
-
-
-// Raj heights rambaug colony paud road kothrud Pune 411038
-// For any further detils please write to us jaysounds_pune@yahoo.com
-// contact us +919881907980 / +919226448081
